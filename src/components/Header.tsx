@@ -9,16 +9,22 @@ export default function Header({ className }: HeaderProps) {
         <div className="text-white text-sm uppercase tracking-wide">туризм</div>
         <nav className="flex gap-8">
           <a
-            href="#about"
+            href="#letter"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
-            Направления
+            Письмо
           </a>
           <a
-            href="#contact"
+            href="#contract"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
-            Контакты
+            Договор
+          </a>
+          <a
+            href="#consent"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+          >
+            Согласие
           </a>
         </nav>
       </div>
