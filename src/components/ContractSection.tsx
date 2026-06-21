@@ -83,7 +83,7 @@ export default function ContractSection() {
               ].map((field) => (
                 <li key={field} className="flex gap-3">
                   <span className="text-neutral-300">—</span>
-                  <span>{field}: <span className="text-neutral-400 italic">заполняется клиентом</span></span>
+                  <span>{field}</span>
                 </li>
               ))}
             </ul>
@@ -95,6 +95,15 @@ export default function ContractSection() {
             </h3>
             <p className="text-neutral-700 text-sm">
               Номер и серия паспорта, кем и когда выдан.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="uppercase text-sm tracking-widest text-neutral-400 mb-4">
+              Исполнитель
+            </h3>
+            <p className="text-neutral-700 text-sm">
+              Реквизиты исполнителя берутся с сайта АКПиБа.
             </p>
           </div>
         </div>
